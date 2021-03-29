@@ -6,5 +6,3 @@ function add(a, b) {
 //console.log(add(4,5));
 
 module.exports = add;
-
-console.log(module.exports);
