@@ -1,4 +1,3 @@
-//FUNKTION 4: Returnera omvänt värde
 function reverseString(string) {
     let splitTheString = string.split("");
     let inverseArray = splitTheString.reverse();
@@ -6,6 +5,5 @@ function reverseString(string) {
 
     return setToString;
 }
-//console.log(reverseString("hello"));
 
 module.exports = reverseString;
